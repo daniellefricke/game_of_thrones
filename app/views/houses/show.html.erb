@@ -1,0 +1,10 @@
+<h1><%= @house.name %></h1>
+
+<% @house.characters.each do |character| %>
+  <div class="characters">
+    <h2><%= character.name %></h2>
+    <%= image_tag character.img_url %>
+  </div>
+<% end %>
+
+<%= link_to "Back to Houses"%>
