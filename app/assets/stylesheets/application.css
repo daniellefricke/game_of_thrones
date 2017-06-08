@@ -31,7 +31,21 @@ body{
   text-align: center;
 }
 
+h2{
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+.house {
+  display: inline-block;
+}
+
 .house img {
   width: 400px;
+  height: 650px;
+}
 
+.characters img{
+  width: 500px;
+  height: 500px;
 }
