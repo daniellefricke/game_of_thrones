@@ -1,7 +1,7 @@
 class CharactersController < ApplicationController
 
   def index
-    @character = Characters.all
+    @character = Character.all
   end
 
   def new
@@ -30,13 +30,13 @@ def edit
         @character = Character.find(params[:id])
 
         @house.characters.update(character_params)
-        redirect_to house_characters_path(@character)
+        redirect_to house_character_path(@house, @character)
       end
 
 def destroy
-        @character = Character.sfind(params[:id])
+        @character = Character.find(params[:id])
         @character.destroy
-        redirect_to house_characters_path
+        redirect_to house_character_path(@house, @character)
       end
 end
 
