@@ -2,9 +2,8 @@
 
 <% @house.characters.each do |character| %>
   <div class="characters">
-    <h2><%= character.name %></h2>
+    <h2><%=link_to character.name, house_character_path(character) %></h2>
+    <!-- Link here to go to character show page -->
     <%= image_tag character.img_url %>
   </div>
 <% end %>
-
-<%= link_to "Back to Houses"%>

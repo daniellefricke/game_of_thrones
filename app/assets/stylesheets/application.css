@@ -21,6 +21,10 @@ body{
   text-align: center;
 }
 
+.character {
+  width: 400px;
+}
+
 .house img {
   width: 400px;
 

@@ -16,19 +16,10 @@ class CharactersController < ApplicationController
   def show
     @character = Character.find(params[:id])
   end
-
-  def edit
-
-  end
-
-  def update
-
-  end
 end
 
 
 private
   def character_params
-    params.require(:name).permit(:text), (:age).permit(:integer), (:img_url).permit(:text)
+    params.require(:name, :age, :img_url, :house)
   end
-end
