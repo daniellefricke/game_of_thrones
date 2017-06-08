@@ -14,7 +14,7 @@ nights_watch = House.create(name:"Knight's Watch", region: "Northern", motto:"Sw
 targaryen = House.create(name:"House Targaryen", region: "Great House of Westeros", motto: "Fire and Blood", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/55/11/72/55117244f5cda7cb157d3400583d1955.jpg")
 lannister = House.create(name:"House Lannister", region: "Kingdom of the Rock", motto: "Hear Me Roar", crest_url: "https://s-media-cache-ak0.pinimg.com/736x/a9/23/24/a9232456d388b9579d28e4f10f3548d7.jpg")
 baratheon = House.create(name:"House Baratheon", region: "Storms End", motto: "Ours is the Fury", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/0a/53/99/0a5399f96b7c23f6602b55d10934f3df.jpg")
-
+barbie = House.create(name:"Barbie's Dream House", region: "Mattel", motto: "Pink or Bust!", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/e7/fa/12/e7fa121361720052e6ee4e7bafd42f23.jpg")
 
 
 eddard = Character.create(name: "Eddard Stark", age: 40, img_url:"https://pbs.twimg.com/profile_images/533002540078477312/98X7lsxK.jpeg", house: stark)

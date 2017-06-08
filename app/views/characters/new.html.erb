@@ -1,6 +1,6 @@
 <h1>Create a New G.O.T. Character</h1>
 
-<%= form_for @character do |f|%>
+<%= form_for [@house, @character] do |f|%>
 
   <%=f.label :name %>
   <%=f.text_field :name %>
@@ -10,9 +10,6 @@
 
   <%=f.label :img_url %>
   <%=f.text_field :img_url %>
-
-  <%=f.label :house %>
-  <%=f.text_field :house %>
 
   <%= f.submit "Create"%>
 <%end%>

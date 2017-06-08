@@ -2,6 +2,8 @@
 <h2>House: <%=@character.house.name%></h2>
 <h3>Age: <%=@character.age%></h3>
 
+<%= link_to "Edit this House", edit_house_character_path(@houuse, @character)%></p>
+
 <div class="character">
   <%= image_tag @character.img_url%>
 </div>
