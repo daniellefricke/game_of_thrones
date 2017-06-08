@@ -29,7 +29,7 @@ def edit
         @house = House.find(params[:house_id])
         @character = Character.find(params[:id])
 
-        @house.characters.update(character_params)
+        @character.update(character_params)
         redirect_to house_character_path(@house, @character)
       end
 
