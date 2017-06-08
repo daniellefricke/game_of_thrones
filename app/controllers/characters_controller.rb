@@ -16,23 +16,24 @@ class CharactersController < ApplicationController
   end
 
   def show
+    @house = House.find(params[:house_id])
     @character = Character.find(params[:id])
   end
 
 def edit
   @house = House.find(params[:house_id])
-  @characters = @house.characters.find(params[:id])
+  @character = Character.find(params[:id])
   end
 
   def update
-    @house = House.find(params[:house_id])
+        @house = House.find(params[:house_id])
         @character = Character.find(params[:id])
-        @character.update(CharactersController_params)
-        redirect_to house_characters_path(@character, @house)
+
+        @house.characters.update(character_params)
+        redirect_to house_characters_path(@character)
       end
 
 def destroy
-  @house = House.find(params[:house_id])
         @character = Character.sfind(params[:id])
         @character.destroy
         redirect_to house_characters_path

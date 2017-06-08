@@ -14,7 +14,7 @@ nights_watch = House.create(name:"Knight's Watch", region: "Northern", motto:"Sw
 targaryen = House.create(name:"House Targaryen", region: "Great House of Westeros", motto: "Fire and Blood", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/55/11/72/55117244f5cda7cb157d3400583d1955.jpg")
 lannister = House.create(name:"House Lannister", region: "Kingdom of the Rock", motto: "Hear Me Roar", crest_url: "https://s-media-cache-ak0.pinimg.com/736x/a9/23/24/a9232456d388b9579d28e4f10f3548d7.jpg")
 baratheon = House.create(name:"House Baratheon", region: "Storms End", motto: "Ours is the Fury", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/0a/53/99/0a5399f96b7c23f6602b55d10934f3df.jpg")
-barbie = House.create(name:"Barbie's Dream House", region: "Mattel", motto: "Pink or Bust!", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/e7/fa/12/e7fa121361720052e6ee4e7bafd42f23.jpg")
+barbie_dream = House.create(name:"Barbie's Dream House", region: "Mattel", motto: "Pink or Bust!", crest_url: "https://s-media-cache-ak0.pinimg.com/originals/e7/fa/12/e7fa121361720052e6ee4e7bafd42f23.jpg")
 
 
 eddard = Character.create(name: "Eddard Stark", age: 40, img_url:"https://pbs.twimg.com/profile_images/533002540078477312/98X7lsxK.jpeg", house: stark)
@@ -22,3 +22,5 @@ jeor = Character.create(name: "Jeor Mormont", age: 70, img_url:"http://vignette2
 daenerys = Character.create(name: "Daenerys Targaryen", age: 16, img_url:"http://winteriscoming.net/files/2016/03/Daenerys-Targaryen-630x503.jpg", house: targaryen)
 tyrion = Character.create(name: "Tyrion Lannister", age: 25, img_url:"http://static5.businessinsider.com/image/562a3ae7dd08955a4b8b4680-1879-1409/ap120913021909.jpg", house: lannister)
 myrcella = Character.create(name: "Princess Myrcella Baratheon", age: 23, img_url:"https://s-media-cache-ak0.pinimg.com/originals/b7/dc/a7/b7dca7eaf153c9f375de02014a676755.jpg", house: baratheon)
+barbie = Character.create(name: "Barbie Doll", age: 29, img_url:"https://yt3.ggpht.com/-GaXvBkENq1c/AAAAAAAAAAI/AAAAAAAAAAA/uigA1OMOrtM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg", house: barbie_dream)
+ken = Character.create(name: "Ken Doll", age: 30, img_url: "https://vignette2.wikia.nocookie.net/barbie-movies/images/c/c3/Ken_doll.jpg/revision/latest?cb=20120811061251", house: barbie_dream)
