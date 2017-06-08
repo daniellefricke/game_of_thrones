@@ -1,0 +1,23 @@
+<h1>Edit this House</h1>
+
+<%= form_for @house do |f|%>
+
+  <%=f.label :name %>
+  <%=f.text_field :name %>
+
+  <%=f.label :motto %>
+  <%=f.text_field :motto %>
+
+  <%=f.label :region %>
+  <%=f.text_field :region %>
+
+  <%=f.label :crest_url %>
+  <%=f.text_field :crest_url %>
+
+  <%= f.submit "Update"%>
+
+ <%end%>
+
+ <%= form_for @house, method: :delete do |f| %>
+   <%= f.submit "Delete this House!", class: "delete" %>
+ <% end %>

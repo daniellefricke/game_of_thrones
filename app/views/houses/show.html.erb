@@ -1,5 +1,7 @@
 <h1><%= @house.name %></h1>
 
+<p><%= link_to "Add a Character to this House!", new_house_character_path(@house, @character)%> | <%= link_to "Edit this House", edit_house_path(@house)%></p>
+
 <% @house.characters.each do |character| %>
   <div class="characters">
     <h2><%=link_to character.name, house_character_path(character) %></h2>
