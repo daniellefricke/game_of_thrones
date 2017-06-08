@@ -36,6 +36,11 @@ h2{
   padding: 20px;
   text-decoration: none;
 }
+
+p{
+  font-family: helvetica, sans-serif;
+}
+
 .house {
   display: inline-block;
 }

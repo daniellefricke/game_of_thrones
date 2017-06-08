@@ -24,3 +24,5 @@ tyrion = Character.create(name: "Tyrion Lannister", age: 25, img_url:"http://sta
 myrcella = Character.create(name: "Princess Myrcella Baratheon", age: 23, img_url:"https://s-media-cache-ak0.pinimg.com/originals/b7/dc/a7/b7dca7eaf153c9f375de02014a676755.jpg", house: baratheon)
 barbie = Character.create(name: "Barbie Doll", age: 29, img_url:"https://yt3.ggpht.com/-GaXvBkENq1c/AAAAAAAAAAI/AAAAAAAAAAA/uigA1OMOrtM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg", house: barbie_dream)
 ken = Character.create(name: "Ken Doll", age: 30, img_url: "https://vignette2.wikia.nocookie.net/barbie-movies/images/c/c3/Ken_doll.jpg/revision/latest?cb=20120811061251", house: barbie_dream)
+skipper = Character.create(name: "Skipper Doll", age: 17, img_url:"http://2.bp.blogspot.com/-5GVVm-zaLxE/VUdkh7Dko3I/AAAAAAAAq4Y/mCniLXppJTM/s640/2015_Barbie_%26_Her_Sisters_In_The_Great_Puppy_Adventure_Giftset_Skipper_Stacie_Dolls_04.jpg", house: barbie_dream)
+stacie = Character.create(name: "Stacie Doll", age: 10, img_url: "https://target.scene7.com/is/image/Target/51902104_Alt02?wid=520&hei=520&fmt=pjpeg", house: barbie_dream)
