@@ -34,9 +34,10 @@ def edit
       end
 
 def destroy
+  @house = House.find(params[:house_id])
         @character = Character.find(params[:id])
         @character.destroy
-        redirect_to house_character_path(@house, @character)
+        redirect_to house_path(@house)
       end
 end
 
